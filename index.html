@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Aayush Gupta">
+    <title>Aayush Gupta| Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="font-mfizz/font-mfizz.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+        var textarray =
+        [
+        "printf (Hello, World !);",
+        "PRINT Hello, World !;",
+        "std::cout << 'Hello, World !' << std::endl;",
+        "System.out.println('Hello, World !');",
+        "document.write('Hello, World !');",
+        "Print['Hello, World !']",
+        "NSLog(@'Hello, World !');",
+        "echo 'Hello, World !';",
+        "print('Hello, World !')",
+        "WRITE 'Hello, World !'.",
+        "message 'Hello, World !' with style = popup;",
+        "trace('Hello, World !');",
+        "WRITE 'Hello, World !'.",
+        "MSG: .ASCIIZ 'Hello, World !'",
+        "10 PRINT 'Hello, World !'",
+        "<p>Hello, World !</p>",
+        "put 'Hello, World !'",
+        "puts 'Hello, World !'",
+        "PRINT *, 'Hello, World !'"
+         ];
+
+         function RndText() {
+             var rannum= Math.floor(Math.random()*textarray.length);
+             document.getElementById('arraytext').innerHTML=textarray[rannum];
+         }
+         onload = function() { RndText(); }
+
+         var inter = setInterval(function() { RndText(); }, 500);
+    </script>
+
+
+
+</head>
+
+<body>
+
+        <div id="top" class="header">
+        <div class="vert-text">
+            <a title="" class="icon" href="http://aayushgupta.github.io" target="_blank"> <i class="fa fa-code fa-4x"></i> </a><br>
+            <!-- <img class="dp" src="./img/dp.jpg"><br> -->
+            <div id="arraytext" class = "text-color"></div>
+            <h3  class = "text-color">Hi there! Thanks for stumbling upon.</h3>
+            <a class="btn btn-default btn-lg" href="https://www.dropbox.com/s/zfsd6gb5tam25he/Resume%20Aayush%20Gupta.doc?dl=0" target="_blank"> <span class="network-name">Curriculum Vitae</span></a>
+            <br></br>
+
+            <ul class="list-inline ">
+              <li><a title="Facebook" class="icon" href="https://www.facebook.com/Gamer.Aayush" target="_blank"> <i class="fa fa-facebook fa-3x"></i> </a> </li>
+
+              <li> <a title="Twitter" class="icon" href="https://twitter.com/AayushG96" target="_blank"> <i class="fa fa-twitter fa-3x"></i> </a></li>
+
+              <li> <a title="LinkedIn" class="icon" href="https://www.linkedin.com/in/aayush-gupta-7a6a77b5" target="_blank"> <i class="fa fa-linkedin fa-3x"></i> </a> </li>
+
+              <li> <a title="Github" class="icon" href="https://github.com/aayush1996" target="_blank"> <i class="fa fa-github fa-3x"></i> </a> </li>
+
+              <li> <a title="Google+" class="icon" href="https://plus.google.com/117982428373469942827" target="_blank"> <i class="fa fa-google-plus fa-3x"></i></a> </li>
+
+              <li> <a title="Email" class="icon" href="mailto:aayush.261022@gmail.com" target="_blank" data-toggle="tooltip"> <i class="fa fa-envelope fa-3x"></i></a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
