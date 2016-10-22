@@ -39,13 +39,11 @@
         "puts 'Hello, World !'",
         "PRINT *, 'Hello, World !'"
          ];
-
          function RndText() {
              var rannum= Math.floor(Math.random()*textarray.length);
              document.getElementById('arraytext').innerHTML=textarray[rannum];
          }
          onload = function() { RndText(); }
-
          var inter = setInterval(function() { RndText(); }, 500);
     </script>
 
